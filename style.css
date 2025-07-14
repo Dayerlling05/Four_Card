@@ -74,13 +74,23 @@ h1 {
         grid-template-areas: ". team ." "sup . cal" ". kar .";
 
     }
+    
+    #card1 {
+        grid-area: sup;
 
+    }
     #card2 {
         margin-bottom: -35%;
+         grid-area: team;
     }
 
     #card3 {
         margin-top: -35%;
+        grid-area: kar;
+    }
+    
+    #card4 {
+        grid-area: cal;
     }
 
     .imagen {
@@ -93,7 +103,6 @@ h1 {
     .infor {
         padding: 2em 0;
         text-align: center;
-        background: rgb(240, 216, 216);
     }
 
     .powered {
