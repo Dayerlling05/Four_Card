@@ -7,7 +7,7 @@
     --Blue: hsl(212, 86%, 64%);
     --Grey-500: hsl(234, 12%, 34%);
     --Grey-400: hsl(212, 6%, 44%);
-    --White: hsl(0, 0%, 100%)
+    --White: hsl(0, 0%, 99%)
 }
 
 body {
@@ -42,7 +42,7 @@ h1 {
 
 @media screen and (min-width: 1400px) {
     .infor {
-        padding: 2em 0;
+        padding: 8em 0;
         text-align: center;
     }
 
@@ -67,7 +67,7 @@ h1 {
     }
 
     .cards {
-        padding: 10% 10% 10% 10%;
+        padding: 0 5% 5% 5%;
         display: grid;
         gap: 3%;
         grid-template-columns: repeat(3, 1fr);
