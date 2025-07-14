@@ -63,7 +63,7 @@ h1 {
         border-radius: 5px;
         box-shadow: 5px 5px 5px 8px rgba(66, 65, 65, 0.1);
         display: grid;
-        padding: 5px 30px 28px 35px;
+        padding: 5px 30px 22px 35px;
         font-size: 15px;
 
     }
@@ -76,6 +76,9 @@ h1 {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: ". team ." "sup . cal" ". kar .";
 
+    }
+    .card p{
+        margin-top: -3px;
     }
     
     #card1 {
